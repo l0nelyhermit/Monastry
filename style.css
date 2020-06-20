@@ -2,3 +2,86 @@ body {
     margin: 0;
     padding: 0;
 }
+
+nav{
+    height: 84px;
+}
+
+.navbar .nav-item a{
+    color:black !important;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+}
+
+.jumbotron{
+    background-image: url(images/homepage/homepage-splash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height:700px;
+    padding: 100px;
+    margin-bottom: 0;
+}
+
+.title-header{
+    font-weight: 500;
+    font-family: Roboto;
+    font-size: 100px;
+    font-style: normal;
+}
+
+.form-container{
+    background-color:rgba(235,235,235,0.5);
+    text-align: center;
+    border-radius: 5%;
+    font-family: Roboto,sans-serif;
+    font-weight:normal;
+}
+
+.input-group{
+    margin-bottom: 1.5rem;
+    display:flex;
+    justify-content: center;
+}
+
+.input-label{
+    display:block;
+    font-family: Roboto,sans-serif;
+    justify-content: center;
+    font-size:1.3rem;
+    text-transform: uppercase;
+    color: black;
+    font-weight: normal;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#check-in,
+#check-out{
+    padding:1.5px;
+    width: 100%;
+    min-height:4rem;
+    border: 2px solid black;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 1px;
+}
+
+.input-option-group{
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    margin-left:1.5rem;
+    margin-right:1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,61 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <!-- Navigation Bar -->
-            <div id="navbar-container">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-                    <a class="navbar-brand" href="#"><img src="images/homepage/logo.png"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                  
-                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                      <ul class="navbar-nav mr-auto mx-auto">
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Rooms</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Facilities
-                          </a>
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Indoor Gym</a>
-                            <a class="dropdown-item" href="#">Hot Spring</a>
-                            <a class="dropdown-item" href="#">Swimming Pool</a>
-                            <a class="dropdown-item" href="#">Wellness Spa</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Gallery</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              Contact
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="#">FAQ</a>
-                              <a class="dropdown-item" href="#">Contact Us</a>
-                            </div>
-                          </li>
-                      </ul>
-                        <button class="btn btn-outline-dark my-2 my-sm-0 btn-sm" type="button" >Book Now!</button>
-                    </div>
-                  </nav>
+  <header>
+    <!-- Navigation Bar -->
+    <div id="navbar-container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="#"><img src="images/homepage/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Rooms</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Facilities
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Indoor Gym</a>
+                <a class="dropdown-item" href="#">Hot Spring</a>
+                <a class="dropdown-item" href="#">Swimming Pool</a>
+                <a class="dropdown-item" href="#">Wellness Spa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Contact
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">FAQ</a>
+                <a class="dropdown-item" href="#">Contact Us</a>
+              </div>
+            </li>
+          </ul>
+          <button class="btn btn-outline-dark my-2 my-sm-0 btn-sm" type="button">Book Now!</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <div class="row">
+          <div class=" col-sm-6">
+            <h1 class="title-header">MONASTRY</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention
+              to featured content or information.</p>
+            <a class="btn btn-dark btn-lg" href="#" role="button">Book Now!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="col-sm-4" style="padding: 0;">
+            <div class="form-container">
+              <h3>CHECK AVAILABILITY</h3>
+              <hr class="display-2"></hr>
+              <form action="" class="form">
+                <div class="input-group">
+                  <label for="check-in" class="input-label">Check-In Date </label>
+                  <input type="date" class="input" id="check-in">
+                </div>
+                <div class="input-group">
+                  <label for="check-out" class="input-label">Check-Out Date</label>
+                  <input type="date" class="input" id="check-out">
+                </div>
+                <div class="input-option-group">
+                  <label for="adults" class="input-label">Adults</label>
+                  <select class="options" id="adults">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </div>
+                <div class="input-option-group">
+                  <label for="children" class="input-label">Children</label>
+                  <select class="options" id="children">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </div>
+                <div class="input-option-group">
+                  <label for="rooms" class="input-label">Rooms</label>
+                  <select class="options" id="rooms">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </div>
+                <div class="submit-btn">
+                <button class="btn btn-danger shadow-lg" type="submit">FIND A ROOM</button>
+              </div>
+              </form>
             </div>
-    </header>
+    </section>
+
     
-    <script src="jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+  </main>
+
+
+  <script src="jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
