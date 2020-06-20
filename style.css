@@ -111,6 +111,173 @@ nav{
     color:black;
 }
 
+#navigation-container{
+    width: auto;
+    height: 400px;
+    background-color: #1C2923;
+    display:flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left:50px;
+}
+
+
+.rooms-image img{
+    width: auto;
+    height: 300px;
+    border: 2px solid black;
+    transition: 0.5s;
+}
+
+.rooms-overlay{
+    position:absolute;
+    width: 100%;
+    top:50%;
+    
+    transform:translate(-3%,-50%); 
+    z-index:1;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align:center;
+}
+
+.rooms-overlay h2{
+    margin:0;
+    padding:0;
+    color:White;
+    transition: 0.5s;
+    opacity:0;
+    visibility: hidden;
+}
+
+.rooms-overlay p{
+    margin:0;
+    padding:0;
+    color:white;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+
+.rooms-image img:hover{
+    opacity: 0.2;
+
+}
+
+.rooms-image:hover .rooms-overlay h2,
+.rooms-image:hover .rooms-overlay p{
+    opacity:1;
+    visibility: visible;
+}
+
+
+
+.gallery-image img{
+    width: 450px;
+    height:300px;
+    border: 2px solid black;
+    transition: 0.5s
+}
+.gallery-overlay{
+    position:absolute;
+    width: 100%;
+    top:50%;
+    
+    transform:translate(-3%,-50%); 
+    z-index:2;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align:center;
+}
+
+.gallery-overlay h2{
+    margin:0;
+    padding:0;
+    color:White;
+    transition: 0.5s;
+    opacity:0;
+    visibility: hidden;
+}
+
+.gallery-overlay p{
+    margin:0;
+    padding:0;
+    color:white;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+
+.gallery-image img:hover{
+    opacity: 0.2;
+
+}
+
+.gallery-image:hover .gallery-overlay h2,
+.gallery-image:hover .gallery-overlay p{
+    opacity:1;
+    visibility: visible;
+}
+
+
+.facility-image img{
+    width: 450px;
+    height:300px;
+    border: 2px solid black;
+    transition: 0.5s
+}
+
+.facility-overlay{
+    position:absolute;
+    width: 100%;
+    top:50%;
+    
+    transform:translate(-3%,-50%); 
+    z-index:2;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align:center;
+}
+
+.facility-overlay h2{
+    margin:0;
+    padding:0;
+    color:White;
+    transition: 0.5s;
+    opacity:0;
+    visibility: hidden;
+}
+
+.facility-overlay p{
+    margin:0;
+    padding:0;
+    color:white;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+
+.facility-image img:hover{
+    opacity: 0.2;
+
+}
+
+.facility-image:hover .facility-overlay h2,
+.facility-image:hover .facility-overlay p{
+    opacity:1;
+    visibility: visible;
+}
+
+
+
+
+
 
 
 
