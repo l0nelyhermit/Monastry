@@ -31,7 +31,8 @@ nav{
 }
 
 .form-container{
-    background-color:rgba(239,181,179,0.2);
+    /* background-color:rgba(239,181,179,0.2); */
+    background-color: #CCA283;
     width:100%;
     height:250px;
 }
@@ -114,7 +115,8 @@ nav{
 #navigation-container{
     width: auto;
     height: 400px;
-    background-color: #1C2923;
+    /* background-color: #1C2923; */
+    background-color: rgb(216, 199, 184);
     display:flex;
     justify-content: space-between;
     padding-top: 50px;
@@ -144,10 +146,12 @@ nav{
 .rooms-overlay h2{
     margin:0;
     padding:0;
-    color:White;
+    color:white;
     transition: 0.5s;
     opacity:0;
     visibility: hidden;
+    font-weight:800;
+    font-style: normal;
 }
 
 .rooms-overlay p{
@@ -157,14 +161,11 @@ nav{
     transition: 0.5s;
     opacity: 0;
     visibility: hidden;
+    font-weight:600;
+    font-style: normal;
 }
 
 
-
-.rooms-image img:hover{
-    opacity: 0.2;
-
-}
 
 .rooms-image:hover .rooms-overlay h2,
 .rooms-image:hover .rooms-overlay p{
@@ -199,6 +200,8 @@ nav{
     transition: 0.5s;
     opacity:0;
     visibility: hidden;
+    font-weight:800;
+    font-style: normal;
 }
 
 .gallery-overlay p{
@@ -208,14 +211,11 @@ nav{
     transition: 0.5s;
     opacity: 0;
     visibility: hidden;
+    font-weight:600;
+    font-style: normal;
 }
 
 
-
-.gallery-image img:hover{
-    opacity: 0.2;
-
-}
 
 .gallery-image:hover .gallery-overlay h2,
 .gallery-image:hover .gallery-overlay p{
@@ -250,6 +250,8 @@ nav{
     transition: 0.5s;
     opacity:0;
     visibility: hidden;
+    font-weight:800;
+    font-style: normal;
 }
 
 .facility-overlay p{
@@ -259,14 +261,10 @@ nav{
     transition: 0.5s;
     opacity: 0;
     visibility: hidden;
+    font-weight:600;
+    font-style: normal;
 }
 
-
-
-.facility-image img:hover{
-    opacity: 0.2;
-
-}
 
 .facility-image:hover .facility-overlay h2,
 .facility-image:hover .facility-overlay p{
@@ -277,7 +275,8 @@ nav{
 #neighborhood-container{
     width: 100%;
     height: 500px;
-    background-color:rgba(117,60,45,0.7);
+    /* background-color:rgba(117,60,45,0.7); */
+    background-color: rgb(216, 199, 184);
 }
 
 .google-map-image{
@@ -304,7 +303,8 @@ nav{
 #reviews-container{
     width:auto;
     height: 300px;
-    background-color:rgb(192, 210, 210);
+    /* background-color:rgb(192, 210, 210); */
+    background-color: rgb(216, 199, 184);
     padding:80px;
 }
 
