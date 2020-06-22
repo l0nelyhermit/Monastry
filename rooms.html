@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="styles/rooms.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header>
+    <!-- Navigation Bar -->
+    <div id="navbar-container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="#"><img src="images/homepage/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Rooms</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Facilities
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Indoor Gym</a>
+                <a class="dropdown-item" href="#">Hot Spring</a>
+                <a class="dropdown-item" href="#">Swimming Pool</a>
+                <a class="dropdown-item" href="#">Wellness Spa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Contact
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">FAQ</a>
+                <a class="dropdown-item" href="#">Contact Us</a>
+              </div>
+            </li>
+          </ul>
+          <button class="btn btn-outline-dark my-2 my-sm-0 btn-sm" type="button">Book Now!</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+    <main>
+        <div class="background-container">
+            <div class="jumbotron">
+                <h1 class="display-3">ROOMS AND SUITES</h1>
+                <p class="lead">Created and curated by industry experts,enjoy the breaktaking panorama views at every turn in our most comfortable rooms.
+                </p>
+              </div>
+        </div>
+        <div class="reservation-container">
+          <p>Reserve Your Room</p>
+            <input type="date" class="input" id="check-in">
+            <input type="date" class="input" id="check-out">
+          <button type="submit" class="btn btn-dark btn-lg" id="submit-button">Book A Room</button>
+          </div>
+        </div>
+
+        <div class="room-essentials-container">
+          <h2>Our Room Essentials:</h2>
+          <div class = "essentials-content">
+            <div class= "row">
+              <div class="col-lg-6" id="first-half-icons">
+                <div class="col-sm-4" id="icon-content-box">
+                  <i class="fa fa-bed fa-5x" aria-hidden="true"></i>
+                  <p>Spare beds are available upon request</p>
+                </div>
+                <div class="col-sm-4" id="icon-content-box">
+                  <i class="fa fa-cutlery fa-5x" aria-hidden="true"></i>
+                  <p>Around the clock dining in-room service</p>
+                </div>
+                <div class="col-sm-4" id="icon-content-box">
+                  <i class="fa fa-glass fa-5x" aria-hidden="true"></i>
+                  <p>Fully Stocked Minibar</p>
+                </div>
+              </div>
+              <div class="col-lg-6" id="second-half-icons">
+              
+                <div class="col-sm-4" id="icon-content-box">
+                  <i class="fa fa-television fa-5x" aria-hidden="true"></i>
+                  <p>Interactive High Definition Smart TV</p>
+                </div>
+                <div class="col-sm-4" id="icon-content-box">
+                  <i class="fa fa-wheelchair fa-5x" aria-hidden="true"></i>
+                  <p>Rooms are friendly for handicap users</p>
+                </div>
+                <div class="col-sm-4" id="icon-content-box">
+                  <i class="fa fa-wifi fa-5x" aria-hidden="true"></i>
+                  <p>Free High-speed Wi-Fi</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </main>
+  <script src="jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+</html>
