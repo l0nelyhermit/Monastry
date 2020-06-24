@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+#navbar-container{
+    height:120px;
+    
+}
+
+nav{
+    height: 200px;
+}
+
+.navbar{
+    padding-bottom: 90px;
+    padding-top:0px;
+}
+
+.navbar-brand{
+    padding:0 !important;
+    margin-right:0px !important;
+    margin-left: 20px !important;
+    margin-top: 20px !important;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-family: Roberto,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-style: normal;
+    text-shadow: white;
+    text-transform: uppercase;
+}
+
+.nav-item .nav-link:hover{
+    color:black;
+}
+
+.room-page-cover{
+    background-image: url(/images/dine/splash-background3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height:100vh;
+}
+
+
+.jumbotron{
+    margin:0;
+    height:700px;
+    background-color:transparent;
+}
+
+.dine-splash-container{
+    text-align: center;
+    padding-top:30px;
+}
+
+.title-header-1{
+    color: white;
+    font-weight: 500;
+    font-family: Roboto;
+    font-size: 100px;
+    font-style: normal;
+    text-shadow: 4px 2px 6px rgba(0,0,0,0.2);
+    margin-bottom: 0;
+}
+
+#food-container{
+    background-color:rgb(216, 199, 184);
+}
+
+#carousel-1{
+    padding-top: 50px;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+#food-container .carousel-inner{
+    height:450px;
+    width:auto;
+}
+
+#food-content{
+    text-align: center;
+    padding-top:70px;
+}
+
+#food-content h2{
+    font-weight: 400;
+    font-size: 40px;
+    font-family: Playfair Display, sans-serif;
+    font-style: normal;
+}
+
+.opening-hours-food{
+    font-family: Monserrat,sans-serif;
+}
+
+.opening-hours-food h4{
+    font-size: 20px;
+    font-weight:500;
+    font-style: normal;
+}
+.opening-hours-food p{
+    margin:0;
+    font-size:15px;
+    font-weight: 400;
+}
+
+.para-1,
+.para-2{
+    margin-top:6px !important;
+}
+ 
+
+
+.food-button{
+    display:inline-block;
+}
+
+#bar-container{
+    background-color:rgb(216, 199, 184);
+    height:600px;
+}
+#bar-content{
+    text-align: center;
+    padding-top:70px;
+}
+
+#bar-content h2{
+    font-weight: 400;
+    font-size: 40px;
+    font-family: Playfair Display, sans-serif;
+    font-style: normal;
+}
+
+.opening-hours-bar{
+    font-family: Monserrat,sans-serif;
+}
+
+.opening-hours-bar h4{
+    font-size: 20px;
+    font-weight:500;
+    font-style: normal;
+}
+.opening-hours-bar p{
+    margin:0;
+    font-size:15px;
+    font-weight: 400;
+}
+
+.para-1,
+.para-2{
+    margin-top:6px !important;
+}
+ 
+
+
+.food-button{
+    display:inline-block;
+}
+
+#carousel2 .carousel-inner{
+    height:450px;
+    width:auto;
+}
+
+#carousel-2{
+    padding-top: 50px;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+.footer-container{
+    width:auto;
+    height:150px;
+    padding-top: 20px;
+}
+
+.top-footer-container{
+    display: flex;
+    flex-direction: row;
+    padding-left: 250px;
+}
+
+.top-footer-container small{
+    margin-top:10px;
+}
+
+.email-container{
+    display:flex;
+    flex-direction: row;
+    margin-left: 600px;
+}
+
+.email-container input{
+    width: 400px;
+}
+
+.bottom-footer-container{
+    display: flex;
+    flex-direction: row;
+    padding-left: 240px;
+}
+
+.social-media-icons{
+    margin-left: 500px;
+
+}
+
+.social-media-icons .fa{
+        font-size: 30px;
+        width: 40px;
+        text-align: center;
+        text-decoration: none;
+        margin: 2px 5px;
+        
+}
+
+.social-media-icons .fa:hover{
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 20%;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 20%;
+  }
+
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+    border-radius: 20%;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+    border-radius: 20%;
+  }

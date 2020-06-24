@@ -14,7 +14,7 @@ nav{
 }
 
 .navbar{
-    padding-bottom: 130px;
+    padding-bottom: 90px;
     padding-top:0px;
 }
 
@@ -22,7 +22,7 @@ nav{
     padding:0 !important;
     margin-right:0px !important;
     margin-left: 20px !important;
-    margin-top: 20px !important;
+    margin-top: 40px !important;
 }
 
 
@@ -36,9 +36,7 @@ nav{
     text-transform: uppercase;
 }
 
-.nav-item .nav-link:hover{
-    color:black;
-}
+
 
 .room-page-cover{
     background-image: url(/images/rooms/splash-background2.jpg);
