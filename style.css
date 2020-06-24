@@ -3,31 +3,87 @@ body {
     padding: 0;
 }
 
+#navbar-container{
+    height:120px;
+    
+}
+
 nav{
-    height: 84px;
+    height: 200px;
 }
 
-.navbar .nav-item a{
-    color:black !important;
-    font-family: Roboto,sans-serif;
-    font-weight: 500;
+.navbar{
+    padding-bottom: 130px;
+    padding-top:0px;
 }
 
-.jumbotron{
+.navbar-brand{
+    padding:0 !important;
+    margin-right:0px !important;
+    margin-left: 20px !important;
+    margin-top: 20px !important;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-family: Roberto,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-style: normal;
+    text-shadow: white;
+    text-transform: uppercase;
+}
+
+.nav-item .nav-link:hover{
+    color:black;
+}
+
+.main-page-cover{
     background-image: url(images/homepage/homepage-splash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
-    height:700px;
-    padding: 100px;
-    margin-bottom: 0;
+    height:100vh;
+    width:auto;
 }
 
-.title-header{
+.jumbotron{
+    background-color: transparent;
+    display:flex;
+    justify-content: center;
+    height:300px;
+    padding-left:60px;
+    padding-top:0px;
+    margin-bottom: 0;
+    width:100%;
+}
+
+
+.title-header-1{
+    color: rgb(237,41,57);
     font-weight: 500;
     font-family: Roboto;
     font-size: 100px;
     font-style: normal;
+    text-shadow: 4px 2px 6px rgba(0,0,0,0.2);
+    margin-bottom: 0;
+}
+
+.title-header-2{
+    color: rgb(237,41,57);
+    font-weight: 500;
+    font-family: Roboto;
+    font-size: 100px;
+    font-style: normal;
+    text-shadow: 4px 2px 6px rgba(0,0,0,0.2);
+    margin-bottom: 0;
+}
+
+.lead{
+    font-weight: 400;
+    font-style:bold;
+
 }
 
 .form-container{
@@ -117,6 +173,7 @@ nav{
     height: 400px;
     /* background-color: #1C2923; */
     background-color: rgb(216, 199, 184);
+    /* background-color:rgba(239,181,179,0.6); */
     display:flex;
     justify-content: space-between;
     padding-top: 50px;
@@ -277,6 +334,7 @@ nav{
     height: 500px;
     /* background-color:rgba(117,60,45,0.7); */
     background-color: rgb(216, 199, 184);
+    /* background-color:rgba(239,181,179,0.6); */
 }
 
 .google-map-image{
@@ -305,6 +363,7 @@ nav{
     height: 300px;
     /* background-color:rgb(192, 210, 210); */
     background-color: rgb(216, 199, 184);
+    /* background-color:rgba(239,181,179,0.6); */
     padding:80px;
 }
 

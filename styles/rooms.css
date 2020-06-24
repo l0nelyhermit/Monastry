@@ -3,48 +3,76 @@ body {
     padding: 0;
 }
 
-nav{
-    height: 84px;
-}
 
-.navbar .nav-item a{
-    color:black !important;
-    font-family: Roboto,sans-serif;
-    font-weight: 500;
-}
-
-.background-container{
-    width:100%;
-    height:700px;
-    background-image: url(../images/rooms/splash-background2.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    display:flex;
-    justify-content: center;
-}
-
-.jumbotron{
-    background-color: rgba(255,255,255,0.4);
-    width:55%;
-    height:40%;
-    margin-top:170px;
-    padding:30px;
-}
-
-.jumbotron h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-style:bold;
-    font-weight: 500;
-    text-align: center;
-}
-
-.jumbotron p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-style:bold;
-    font-weight:700;
-    text-align: center;
+#navbar-container{
+    height:120px;
     
 }
+
+nav{
+    height: 200px;
+}
+
+.navbar{
+    padding-bottom: 130px;
+    padding-top:0px;
+}
+
+.navbar-brand{
+    padding:0 !important;
+    margin-right:0px !important;
+    margin-left: 20px !important;
+    margin-top: 20px !important;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-family: Roberto,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-style: normal;
+    text-shadow: white;
+    text-transform: uppercase;
+}
+
+.nav-item .nav-link:hover{
+    color:black;
+}
+
+.room-page-cover{
+    background-image: url(/images/rooms/splash-background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height:100vh;
+}
+
+
+.jumbotron{
+    margin:0;
+    height:700px;
+    background-color:transparent;
+}
+
+.room-splash-container{
+    text-align: center;
+    padding-top:30px;
+}
+
+
+.title-header-1{
+    color: white;
+    font-weight: 500;
+    font-family: Roboto;
+    font-size: 100px;
+    font-style: normal;
+    text-shadow: 4px 2px 6px rgba(0,0,0,0.2);
+    margin-bottom: 0;
+}
+
+
+
 
 .reservation-container{
     width:auto;
