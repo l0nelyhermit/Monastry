@@ -190,8 +190,9 @@ nav{
 
 .rooms-overlay{
     position:absolute;
-    width: 100%;
+    width:450px;
     top:50%;
+    margin-left: 13px;
     
     transform:translate(-3%,-50%); 
     z-index:1;
@@ -223,6 +224,10 @@ nav{
 }
 
 
+.rooms-image:hover .rooms-overlay{
+    background-color:rgba(0,0,0,0.8);
+}
+
 
 .rooms-image:hover .rooms-overlay h2,
 .rooms-image:hover .rooms-overlay p{
@@ -242,7 +247,8 @@ nav{
     position:absolute;
     width: 100%;
     top:50%;
-    
+    width:450px;
+    margin-left: 13px;
     transform:translate(-3%,-50%); 
     z-index:2;
     padding: 20px;
@@ -253,7 +259,7 @@ nav{
 .gallery-overlay h2{
     margin:0;
     padding:0;
-    color:White;
+    color:white;
     transition: 0.5s;
     opacity:0;
     visibility: hidden;
@@ -264,6 +270,7 @@ nav{
 .gallery-overlay p{
     margin:0;
     padding:0;
+
     color:white;
     transition: 0.5s;
     opacity: 0;
@@ -272,7 +279,9 @@ nav{
     font-style: normal;
 }
 
-
+.gallery-image:hover .gallery-overlay{
+    background-color:rgba(0,0,0,0.8);
+}
 
 .gallery-image:hover .gallery-overlay h2,
 .gallery-image:hover .gallery-overlay p{
@@ -281,18 +290,19 @@ nav{
 }
 
 
-.facility-image img{
+.dine-image img{
     width: 450px;
     height:300px;
     border: 2px solid black;
     transition: 0.5s
 }
 
-.facility-overlay{
+.dine-overlay{
     position:absolute;
     width: 100%;
     top:50%;
-    
+    width:450px;
+    margin-left: 13px;
     transform:translate(-3%,-50%); 
     z-index:2;
     padding: 20px;
@@ -300,7 +310,7 @@ nav{
     text-align:center;
 }
 
-.facility-overlay h2{
+.dine-overlay h2{
     margin:0;
     padding:0;
     color:White;
@@ -311,7 +321,7 @@ nav{
     font-style: normal;
 }
 
-.facility-overlay p{
+.dine-overlay p{
     margin:0;
     padding:0;
     color:white;
@@ -322,9 +332,13 @@ nav{
     font-style: normal;
 }
 
+.dine-image:hover .dine-overlay{
+    background-color:rgba(0,0,0,0.8);
+}
 
-.facility-image:hover .facility-overlay h2,
-.facility-image:hover .facility-overlay p{
+
+.dine-image:hover .dine-overlay h2,
+.dine-image:hover .dine-overlay p{
     opacity:1;
     visibility: visible;
 }
