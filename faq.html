@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="styles/faq.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header class="faq-page-cover">
+    <div id="navbar-container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <a class="navbar-brand" href="main.html"><img src="images/rooms/logo-white.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="rooms.html">Rooms</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dine.html">Eat & Drink</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Contact
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="faq.html">FAQ</a>
+                <a class="dropdown-item" href="#">Contact Us</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="faq-splash-container">
+        <h1 class="title-header-1">FAQ</h1>
+      </div>
+      </div>
+  </header>
+
+  <main>
+    <div class= "faq-container">
+      <div class="searchbar-container">
+        <input type="text" id="accordion-input"  placeholder="Got any questions? Search them here!">
+        <button type="submit" id= "submit-button" class=" btn btn-dark btn-sm">Search</button>
+      </div>
+    <div class="accordion-container">
+      <div id="accordion">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="title-text">
+                What is the check-in & check-out times?
+              </button>
+            </h5>
+          </div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              Our check in time is at 1.00pm & check out time is at 12 noon.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id="title-text">
+                Can I request a late check-out or early check-in
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+              No issues. Late check-out and early check-in requests are subject to availability.Please call or enquire with the front desk the day you arrive to see if there is any availability.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" id="title-text">
+                Is Smoking allowed in the room?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+              Our hotel is strictly non-smoking only. Anyone caught smoking in a room will have to pay a fine.However, you may approach our front desk to check on the location of the designated smoking areas within the vicinity of the building.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingFour">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" id="title-text">
+                Wifi-access?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+            <div class="card-body">
+               Yes, there is complimentry WIFI available throughout the building.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingFive">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" id="title-text">
+                Do you allow any pets?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+            <div class="card-body">
+                Only certified guide dogs are permitted within the premises, otherwise, no pets are allowed.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingSix">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix" id="title-text">
+                How do I get to the hotel from the airport?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+            <div class="card-body">
+              From the airport, we suggest that you flag a cab which would cost you around SGD $22-25 and it will take you around 40 mins approx to reach here.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingSeven">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven" id="title-text">
+                Do you offer any shuttle service from the airport?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+            <div class="card-body">
+              No, we do not provide any shuttle service however we are able to get a private car transfer for you upon your request. In the event for a private car transfer, do contact us to make your arrangements.
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingEight">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight" id="title-text">
+                What is your cancellation policy?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
+            <div class="card-body">
+              Upon making any personal deposits or any payment, the cancellation policy is dependent on the type of room that you have selected. For further enquiries about how much you actually have to pay, you may contact us to seek clarification.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingNine">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine" id="title-text">
+                Do you have any wheelchair accessible rooms?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
+            <div class="card-body">
+               Yes, all of our rooms are in fact wheelchair accessible and they are all able to accomodate any handicapped personnel without issues.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTen">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen" id="title-text">
+                What is the time slot for room service?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
+            <div class="card-body">
+              Our room service is available 24 hours daily, just give us a call to the reception to place an order.
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="top-footer-container">
+        <small>SINGAPORE</small>
+        <div class="email-container">
+          <input type="text" class="email-box" placeholder="Enter your email for promotion and news">
+          <button class="btn btn-dark btn-sm" type="button">Sign Up</button>
+        </div>
+      </div>
+      <hr></hr>
+      <div class="bottom-footer-container">
+        <small><span>&#169;</span>2020 The Monastry Company Pte Ltd, All rights reserved</small>
+        <div class="social-media-icons">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-youtube"></a>
+          <a href="#" class="fa fa-instagram"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+ 
+    
+  <script src="jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

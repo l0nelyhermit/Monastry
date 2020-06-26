@@ -27,7 +27,7 @@ nav{
 
 
 .navbar-light .navbar-nav .nav-link {
-    color: black;
+    color: white;
     font-family: Roberto,sans-serif;
     font-size: 1.2rem;
     font-weight: 600;
@@ -40,8 +40,8 @@ nav{
     color:black;
 }
 
-.dine-page-cover{
-    background-image: url(/images/dine/splash-background3.jpg);
+.faq-page-cover{
+    background-image: url(/images/faq/splash-background4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
@@ -55,7 +55,7 @@ nav{
     background-color:transparent;
 }
 
-.dine-splash-container{
+.faq-splash-container{
     text-align: center;
     padding-top:30px;
 }
@@ -70,110 +70,46 @@ nav{
     margin-bottom: 0;
 }
 
-#food-container{
-    background-color:rgb(216, 199, 184);
+
+
+.searchbar-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 
-#carousel-1{
-    padding-top: 50px;
-    padding-left:50px;
-    padding-right:50px;
+.faq-container{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(216, 199, 184);
+    height:1000px;
 }
 
-#food-container .carousel-inner{
-    height:450px;
-    width:auto;
+.accordion-container{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 50px;
 }
 
-#food-content{
-    text-align: center;
-    padding-top:70px;
+#title-text{
+    font-family: Playfair Family, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color:black;
 }
 
-#food-content h2{
-    font-weight: 400;
-    font-size: 40px;
-    font-family: Playfair Display, sans-serif;
-    font-style: normal;
-}
-
-.opening-hours-food{
+.card-body{
     font-family: Monserrat,sans-serif;
-}
-
-.opening-hours-food h4{
-    font-size: 20px;
-    font-weight:500;
-    font-style: normal;
-}
-.opening-hours-food p{
-    margin:0;
-    font-size:15px;
+    font-size: 16px;
     font-weight: 400;
 }
 
-.para-1,
-.para-2{
-    margin-top:6px !important;
-}
- 
-
-
-.food-button{
-    display:inline-block;
-}
-
-#bar-container{
-    background-color:rgb(216, 199, 184);
-    height:600px;
-}
-#bar-content{
-    text-align: center;
-    padding-top:70px;
-}
-
-#bar-content h2{
-    font-weight: 400;
-    font-size: 40px;
-    font-family: Playfair Display, sans-serif;
-    font-style: normal;
-}
-
-.opening-hours-bar{
-    font-family: Monserrat,sans-serif;
-}
-
-.opening-hours-bar h4{
-    font-size: 20px;
-    font-weight:500;
-    font-style: normal;
-}
-.opening-hours-bar p{
-    margin:0;
-    font-size:15px;
-    font-weight: 400;
-}
-
-.para-1,
-.para-2{
-    margin-top:6px !important;
-}
- 
-
-
-.food-button{
-    display:inline-block;
-}
-
-#carousel2 .carousel-inner{
-    height:450px;
-    width:auto;
-}
-
-#carousel-2{
-    padding-top: 50px;
-    padding-left:50px;
-    padding-right:50px;
+#accordion-input{
+    width: 600px;
+    height:50px;
 }
 
 .footer-container{
