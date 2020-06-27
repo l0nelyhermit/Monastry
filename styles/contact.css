@@ -1,0 +1,268 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+#navbar-container{
+    height:120px;
+    
+}
+
+nav{
+    height: 200px;
+}
+
+.navbar{
+    padding-bottom: 90px;
+    padding-top:0px;
+}
+
+.navbar-brand{
+    padding:0 !important;
+    margin-right:0px !important;
+    margin-left: 20px !important;
+    margin-top: 20px !important;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-family: Roberto,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-style: normal;
+    text-shadow: white;
+    text-transform: uppercase;
+}
+
+.nav-item .nav-link:hover{
+    color:black;
+}
+
+.faq-page-cover{
+    background-image: url(/images/contact/splash-background5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height:100vh;
+}
+
+
+.jumbotron{
+    margin:0;
+    height:700px;
+    background-color:transparent;
+}
+
+.contact-splash-container{
+    text-align: center;
+    padding-top:30px;
+}
+
+.title-header-1{
+    color: white;
+    font-weight: 500;
+    font-family: Roboto;
+    font-size: 100px;
+    font-style: normal;
+    text-shadow: 4px 2px 6px rgba(0,0,0,0.2);
+    margin-bottom: 0;
+}
+
+.form-container{
+    height:1200px;
+    background-color: rgb(216, 199, 184);
+    display: flex;
+    justify-content: center;
+}
+
+.form-container form{
+  width:800px;
+  height:900px;
+  background-color: #f2f2f2;
+  padding-top: 80px;
+  margin-top:150px;
+  border-radius: 8px;
+  
+}
+
+.form-container h3{
+    text-align: center;
+    font-family: Playfair Family, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.form-container h5{
+    text-align: center;
+    font-family: Playfair Family, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.input-group{
+    margin:8px 0;
+    padding: 12px 18px;
+}
+
+#name,
+#email,
+#subject,
+.message{
+    display:block;
+    width:100%;
+    border: 0;
+    padding: 20px 40px;
+    border: 1px solid black;
+}
+
+.label-tag2{
+    font-family: Monserrat,sans-serif;
+    font-weight: 600;
+    margin-left:20px;
+}
+.label-tag1{
+    font-family: Monserrat,sans-serif;
+    font-weight: 600;
+    margin-left:30px;
+}
+
+textarea{
+    height:150px;
+}
+
+.submit-button{
+    display: flex;
+    justify-content: center;
+}
+
+.advertise-container{
+    background-color:rgb(216, 199, 184) ;
+    height:500px;
+    display: flex;
+    justify-content: center;
+}
+
+.hotel-details{
+    width:800px;
+    height:400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.hotel-details li{
+    margin-left:280px;
+    font-family: monserrat,sans-serif;
+    font-size: 15px;
+    font-weight:600;
+}
+
+
+.text-type-1{
+    margin-left:-330px !important;
+}
+.text-type-2{
+    margin-left:-260px !important;
+}
+.text-type-3{
+    margin-left:-320px !important;
+}
+.text-type-4{
+    margin-left:-245px !important;
+}
+
+.telephone,
+.email{
+    color:black;
+}
+
+.telephone:hover,
+.email:hover{
+    color:black;
+}
+
+.hotel-details h2{
+    font-family: Playfair Family, sans-serif;
+    font-weight:700;
+    font-size:30px;
+}
+
+.footer-container{
+    width:auto;
+    height:150px;
+    padding-top: 20px;
+}
+
+.top-footer-container{
+    display: flex;
+    flex-direction: row;
+    padding-left: 250px;
+}
+
+.top-footer-container small{
+    margin-top:10px;
+}
+
+.email-container{
+    display:flex;
+    flex-direction: row;
+    margin-left: 600px;
+}
+
+.email-container input{
+    width: 400px;
+}
+
+.bottom-footer-container{
+    display: flex;
+    flex-direction: row;
+    padding-left: 240px;
+}
+
+.social-media-icons{
+    margin-left: 500px;
+
+}
+
+.social-media-icons .fa{
+        font-size: 30px;
+        width: 40px;
+        text-align: center;
+        text-decoration: none;
+        margin: 2px 5px;
+        
+}
+
+.social-media-icons .fa:hover{
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 20%;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 20%;
+  }
+
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+    border-radius: 20%;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+    border-radius: 20%;
+  }
