@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+#navbar-container{
+    height:120px;
+    
+}
+
+nav{
+    height: 200px;
+}
+
+.navbar{
+    padding-bottom: 90px;
+    padding-top:0px;
+}
+
+.navbar-brand{
+    padding:0 !important;
+    margin-right:0px !important;
+    margin-left: 20px !important;
+    margin-top: 20px !important;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-family: Roberto,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-style: normal;
+    text-shadow: white;
+    text-transform: uppercase;
+}
+
+.nav-item .nav-link:hover{
+    color:black;
+}
+
+.faq-page-cover{
+    background-image: url(/images/about/splash-background6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height:1000px;
+}
+
+
+.jumbotron{
+    margin:0;
+    height:700px;
+    background-color:transparent;
+}
+
+.contact-splash-container{
+    text-align: center;
+    padding-top:30px;
+}
+
+.title-header-1{
+    color: white;
+    font-weight: 500;
+    font-family: Roboto;
+    font-size: 100px;
+    font-style: normal;
+    text-shadow: 4px 2px 6px rgba(0,0,0,0.2);
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+main{
+    background-color: rgb(216, 199, 184);
+    height:3000px;
+}
+
+.the-beginning{
+    height:1000px;
+    text-align: center;
+    padding-left:250px;
+    padding-right: 250px;
+}
+
+.beginning-title{
+    font-family: Playfair Display ,sans-serif;
+    font-weight: 800;
+    padding-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+.beginning-content h4{
+    font-family: Monserrat,sans-serif;
+    margin-bottom: 50px;
+}
+
+.beginning-content p {
+    font-family: Monserrat,sans-serif;
+    font-weight: 200;
+    font-size: 1.1rem;
+}
+
+.sketch-painting{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.sketch-painting img{
+    height:70vh;
+    width:100vh;
+}
+
+.image-landscape{
+    background-image:url(/images/about/landscape.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:auto;
+    height:80vh;
+}
