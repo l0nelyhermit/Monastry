@@ -237,13 +237,13 @@ nav{
 
 
 
-.gallery-image img{
+.about-image img{
     width: 450px;
     height:300px;
     border: 2px solid black;
     transition: 0.5s
 }
-.gallery-overlay{
+.about-overlay{
     position:absolute;
     width: 100%;
     top:50%;
@@ -256,7 +256,7 @@ nav{
     text-align:center;
 }
 
-.gallery-overlay h2{
+.about-overlay h2{
     margin:0;
     padding:0;
     color:white;
@@ -267,7 +267,7 @@ nav{
     font-style: normal;
 }
 
-.gallery-overlay p{
+.about-overlay p{
     margin:0;
     padding:0;
 
@@ -279,12 +279,12 @@ nav{
     font-style: normal;
 }
 
-.gallery-image:hover .gallery-overlay{
+.about-image:hover .about-overlay{
     background-color:rgba(0,0,0,0.8);
 }
 
-.gallery-image:hover .gallery-overlay h2,
-.gallery-image:hover .gallery-overlay p{
+.about-image:hover .about-overlay h2,
+.about-image:hover .about-overlay p{
     opacity:1;
     visibility: visible;
 }
