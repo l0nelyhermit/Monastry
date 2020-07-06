@@ -73,7 +73,7 @@ nav{
 
 main{
     background-color: rgb(216, 199, 184);
-    height:3000px;
+    height:1650px;
 }
 
 .the-beginning{
@@ -120,4 +120,104 @@ main{
     background-size: cover;
     width:auto;
     height:80vh;
+    padding-left:250px;
+    padding-right:250px;
+    padding-top:50px;
+    margin-top:50px;
 }
+.image-content{
+    display:flex;
+    justify-content: center;
+}
+#content-container{
+    background-color:rgba(255,255,255,0.7);
+    height:450px;
+    width:700px;
+    padding: 80px;
+  
+}
+
+.extra-background{
+    text-align:center;
+}
+
+#awards-logo{
+    height:150px;
+    width:200px;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.footer-container{
+    width:auto;
+    height:150px;
+    padding-top: 20px;
+}
+
+.top-footer-container{
+    display: flex;
+    flex-direction: row;
+    padding-left: 250px;
+}
+
+.top-footer-container small{
+    margin-top:10px;
+}
+
+.email-container{
+    display:flex;
+    flex-direction: row;
+    margin-left: 600px;
+}
+
+.email-container input{
+    width: 400px;
+}
+
+.bottom-footer-container{
+    display: flex;
+    flex-direction: row;
+    padding-left: 240px;
+}
+
+.social-media-icons{
+    margin-left: 500px;
+
+}
+
+.social-media-icons .fa{
+        font-size: 30px;
+        width: 40px;
+        text-align: center;
+        text-decoration: none;
+        margin: 2px 5px;
+        
+}
+
+.social-media-icons .fa:hover{
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 20%;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 20%;
+  }
+
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+    border-radius: 20%;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+    border-radius: 20%;
+  }
