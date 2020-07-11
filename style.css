@@ -510,6 +510,7 @@ nav{
     
     nav{
         height: 200px;
+        z-index:2;
     }
     
     .navbar{
@@ -1051,6 +1052,7 @@ nav{
     
     nav{
         height: 200px;
+        z-index:2;
     }
     
     .navbar{

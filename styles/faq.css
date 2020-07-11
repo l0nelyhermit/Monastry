@@ -185,3 +185,624 @@ nav{
     color: white;
     border-radius: 20%;
   }
+
+/* Media Queries for Various Sizes for FAQ Page */
+/* Media Query for Small Phones for FAQ Page */
+@media only screen and (max-width:374px){
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    #navbar-container{
+        height:150px;
+        
+    }
+    
+    nav{
+        height: 200px;
+    }
+    
+    .navbar{
+        padding-bottom: 90px;
+        padding-top:0px;
+    }
+    
+    .navbar-brand{
+        padding:0 !important;
+        margin-right:0px !important;
+        margin-left: 0px !important;
+        margin-top: 20px !important;
+    }
+
+    .navbar-toggler{
+        background-color:white !important;
+        margin-top:60px !important;
+        font-size: 2rem !important;
+        margin-bottom: 60px !important;
+    }
+    
+    
+    .navbar-light .navbar-nav .nav-link {
+        color: white;
+        font-family: Roberto,sans-serif;
+        font-size: 1.2rem;
+        font-weight: 600;
+        font-style: normal;
+        text-shadow: white;
+        text-transform: uppercase;
+    }
+    
+    .nav-item .nav-link:hover{
+        color:black;
+    }
+    
+    .faq-page-cover{
+        background-image: url(/images/faq/splash-background4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center;
+        height:800px;
+    }
+    
+    
+    .jumbotron{
+        margin:0;
+        height:700px;
+        background-color:transparent;
+    }
+    
+    .faq-splash-container{
+        text-align: center;
+        padding-top:180px;
+    }
+    
+    .title-header-1{
+        color: white;
+        font-weight: 500;
+        font-family: Roboto;
+        font-size: 100px;
+        font-style: normal;
+        text-shadow: 4px 2px 6px rgba(0,0,0,0.2);
+        margin-bottom: 0;
+    }
+    
+    .faq-container{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(216, 199, 184);
+        height:1000px;
+    }
+    
+    .searchbar-container{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    
+    #accordion-input::-webkit-input-placeholder{
+        font-size: 12px;
+        padding-left: 25px;
+        font-weight:bold;
+    }
+    
+    
+    .accordion-container{
+        display:flex;
+        justify-content: center;
+        flex-direction: row;
+        margin-bottom: 50px;
+    }
+    
+    #title-text{
+        font-family: Playfair Family, sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        color:black;
+    }
+    
+    .card-body{
+        font-family: Monserrat,sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    #accordion-input{
+        width: 600px;
+        height:50px;
+    }
+
+    .footer-container{
+        width:auto;
+        height:150px;
+        padding-top: 20px;
+    }
+    
+    .top-footer-container{
+        display: flex;
+        flex-direction: row;
+        padding-left: 20px;
+    }
+    
+    .top-footer-container small{
+        margin-top:10px;
+    }
+    
+    .email-container{
+        display:flex;
+        flex-direction: row;
+        margin-left: 35px;
+    }
+    
+    .email-container input{
+        width: 120px;
+    }
+
+    .email-box::-webkit-input-placeholder{
+        font-size: 12px;
+        padding-left: 25px;
+    }
+    
+    .bottom-footer-container{
+        display: flex;
+        flex-direction: row;
+        padding-left: 20px;
+    }
+    
+    .social-media-icons{
+        margin-left: 20px;
+    
+    }
+    
+    .social-media-icons .fa{
+            font-size: 30px;
+            width: 40px;
+            text-align: center;
+            text-decoration: none;
+            margin: 2px 5px;
+            
+    }
+    
+    .social-media-icons .fa:hover{
+        opacity: 0.7;
+    }
+    
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+        border-radius: 20%;
+      }
+      
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+        border-radius: 20%;
+      }
+    
+      .fa-youtube {
+        background: #bb0000;
+        color: white;
+        border-radius: 20%;
+      }
+      
+      .fa-instagram {
+        background: #125688;
+        color: white;
+        border-radius: 20%;
+      }
+}
+/* Media Query for Medium Sized Phone for FAQ Page */
+@media only screen and (min-width:375px) and (max-width:767px){
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    #navbar-container{
+        height:150px;
+        
+    }
+    
+    nav{
+        height: 200px;
+    }
+    
+    .navbar{
+        padding-bottom: 90px;
+        padding-top:0px;
+    }
+    
+    .navbar-brand{
+        padding:0 !important;
+        margin-right:0px !important;
+        margin-left: 0px !important;
+        margin-top: 20px !important;
+    }
+
+    .navbar-toggler{
+        background-color:white !important;
+        margin-top:60px !important;
+        font-size: 2rem !important;
+        margin-bottom: 60px !important;
+    }
+    
+    
+    .navbar-light .navbar-nav .nav-link {
+        color: white;
+        font-family: Roberto,sans-serif;
+        font-size: 1.2rem;
+        font-weight: 600;
+        font-style: normal;
+        text-shadow: white;
+        text-transform: uppercase;
+    }
+    
+    .nav-item .nav-link:hover{
+        color:black;
+    }
+    
+    .faq-page-cover{
+        background-image: url(/images/faq/splash-background4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center;
+        height:800px;
+    }
+    
+    
+    .jumbotron{
+        margin:0;
+        height:700px;
+        background-color:transparent;
+    }
+    
+    .faq-splash-container{
+        text-align: center;
+        padding-top:180px;
+    }
+    
+    .title-header-1{
+        color: white;
+        font-weight: 500;
+        font-family: Roboto;
+        font-size: 100px;
+        font-style: normal;
+        text-shadow: 4px 2px 6px rgba(0,0,0,0.2);
+        margin-bottom: 0;
+    }
+    
+    .faq-container{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(216, 199, 184);
+        height:1000px;
+    }
+    
+    .searchbar-container{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    
+    #accordion-input::-webkit-input-placeholder{
+        font-size: 12px;
+        padding-left: 25px;
+        font-weight:bold;
+    }
+    
+    
+    .accordion-container{
+        display:flex;
+        justify-content: center;
+        flex-direction: row;
+        margin-bottom: 50px;
+    }
+    
+    #title-text{
+        font-family: Playfair Family, sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        color:black;
+    }
+    
+    .card-body{
+        font-family: Monserrat,sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    #accordion-input{
+        width: 600px;
+        height:50px;
+    }
+
+    .footer-container{
+        width:auto;
+        height:150px;
+        padding-top: 20px;
+    }
+    
+    .top-footer-container{
+        display: flex;
+        flex-direction: row;
+        padding-left: 10px;
+    }
+    
+    .top-footer-container small{
+        margin-top:10px;
+    }
+    
+    .email-container{
+        display:flex;
+        flex-direction: row;
+        margin-left: 20px;
+    }
+    
+    .email-container input{
+        width: 180px;
+    }
+
+    .email-box::-webkit-input-placeholder{
+        font-size: 12px;
+        padding-left: 8px;
+    }
+    
+    .bottom-footer-container{
+        display: flex;
+        flex-direction: row;
+        padding-left: 10px;
+    }
+    
+    .social-media-icons{
+        margin-left: 20px;
+    
+    }
+    
+    .social-media-icons .fa{
+            font-size: 30px;
+            width: 40px;
+            text-align: center;
+            text-decoration: none;
+            margin: 2px 5px;
+            
+    }
+    
+    .social-media-icons .fa:hover{
+        opacity: 0.7;
+    }
+    
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+        border-radius: 20%;
+      }
+      
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+        border-radius: 20%;
+      }
+    
+      .fa-youtube {
+        background: #bb0000;
+        color: white;
+        border-radius: 20%;
+      }
+      
+      .fa-instagram {
+        background: #125688;
+        color: white;
+        border-radius: 20%;
+      }
+}
+
+/* Media Query for Tablet Size for FAQ Page */
+@media only screen and (min-width:768px) and (max-width:1439px){
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    #navbar-container{
+        height:150px;
+        
+    }
+    
+    nav{
+        height: 200px;
+    }
+    
+    .navbar{
+        padding-bottom: 90px;
+        padding-top:0px;
+    }
+    
+    .navbar-brand{
+        padding:0 !important;
+        margin-right:0px !important;
+        margin-left: 0px !important;
+        margin-top: 20px !important;
+    }
+
+    .navbar-toggler{
+        background-color:white !important;
+        margin-top:60px !important;
+        font-size: 2rem !important;
+        margin-bottom: 60px !important;
+    }
+    
+    
+    .navbar-light .navbar-nav .nav-link {
+        color: white;
+        font-family: Roberto,sans-serif;
+        font-size: 1.2rem;
+        font-weight: 600;
+        font-style: normal;
+        text-shadow: white;
+        text-transform: uppercase;
+    }
+    
+    .nav-item .nav-link:hover{
+        color:black;
+    }
+    
+    .faq-page-cover{
+        background-image: url(/images/faq/splash-background4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center;
+        height:900px;
+    }
+    
+    
+    .jumbotron{
+        margin:0;
+        height:700px;
+        background-color:transparent;
+    }
+    
+    .faq-splash-container{
+        text-align: center;
+        padding-top:180px;
+    }
+    
+    .title-header-1{
+        color: white;
+        font-weight: 500;
+        font-family: Roboto;
+        font-size: 100px;
+        font-style: normal;
+        text-shadow: 4px 2px 6px rgba(0,0,0,0.2);
+        margin-bottom: 0;
+    }
+    
+    .faq-container{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(216, 199, 184);
+        height:1000px;
+    }
+    
+    .searchbar-container{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    
+    
+    .accordion-container{
+        display:flex;
+        justify-content: center;
+        flex-direction: row;
+        margin-bottom: 50px;
+    }
+    
+    #title-text{
+        font-family: Playfair Family, sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        color:black;
+    }
+    
+    .card-body{
+        font-family: Monserrat,sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    #accordion-input{
+        width: 600px;
+        height:50px;
+    }
+
+    .footer-container{
+        width:auto;
+        height:150px;
+        padding-top: 20px;
+    }
+    
+    .top-footer-container{
+        display: flex;
+        flex-direction: row;
+        padding-left: 10px;
+    }
+    
+    .top-footer-container small{
+        margin-top:10px;
+    }
+    
+    .email-container{
+        display:flex;
+        flex-direction: row;
+        margin-left: 300px;
+    }
+    
+    .email-container input{
+        width: 300px;
+    }
+
+    .email-box::-webkit-input-placeholder{
+        font-size: 12px;
+        padding-left: 8px;
+    }
+    
+    .bottom-footer-container{
+        display: flex;
+        flex-direction: row;
+        padding-left: 10px;
+    }
+    
+    .social-media-icons{
+        margin-left: 180px;
+    
+    }
+    
+    .social-media-icons .fa{
+            font-size: 30px;
+            width: 40px;
+            text-align: center;
+            text-decoration: none;
+            margin: 2px 5px;
+            
+    }
+    
+    .social-media-icons .fa:hover{
+        opacity: 0.7;
+    }
+    
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+        border-radius: 20%;
+      }
+      
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+        border-radius: 20%;
+      }
+    
+      .fa-youtube {
+        background: #bb0000;
+        color: white;
+        border-radius: 20%;
+      }
+      
+      .fa-instagram {
+        background: #125688;
+        color: white;
+        border-radius: 20%;
+      }
+}
