@@ -202,7 +202,7 @@ nav{
 
 #double-card-1,
 #double-card-2{
-    height:490px;
+    height:510px;
     width: 380px;
     padding:0;
 }
@@ -295,5 +295,953 @@ nav{
     border-radius: 20%;
   }
 
+  /* Media Queries for Various Sizes for Rooms Page */
+  @media only screen and (max-width:374px){
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    #navbar-container{
+        height:150px;
+        
+    }
+    
+    nav{
+        height: 200px;
+    }
+    
+    .navbar{
+        padding-bottom: 90px;
+        padding-top:0px;
+    }
+    
+    .navbar-brand{
+        padding:0 !important;
+        margin-right:0px !important;
+        margin-left: 0px !important;
+        margin-top: 90px !important;
+    }
+    
+    .navbar-toggler{
+        background-color:white !important;
+        margin-top:60px !important;
+        font-size: 2rem !important;
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+        color: white;
+        font-family: Roberto,sans-serif;
+        font-size: 1.2rem;
+        font-weight: 600;
+        font-style: normal;
+        text-shadow: white;
+        text-transform: uppercase;
+    }
+    
+    
+    
+    .room-page-cover{
+        background-image: url(/images/rooms/splash-background2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center;
+        height:900px;
+    }
+    
+    
+    .jumbotron{
+        margin-top:120px;
+        height:700px;
+        background-color:transparent;
+    }
+    
+    .room-splash-container{
+        text-align: center;
+        padding-top:30px;
+    }
+    
+    
+    .title-header-1{
+        color: white;
+        font-weight: 500;
+        font-family: Roboto;
+        font-size: 80px;
+        font-style: normal;
+        text-shadow: 4px 2px 6px rgba(0,0,0,0.2);
+        margin-bottom: 0;
+    }
+    
+    
+    
+    
+    .reservation-container{
+        width:auto;
+        height:250px;
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #CCA283;
+    }
+    
+    .reservation-container p{
+        margin-left:40px;
+        margin-right: 10px;
+        margin-top: 15px;
+        font-size:25px;
+        font-weight: 500;
+        font-style: normal;
+        z-index:2;
+    }
+    
+    #check-in{
+        margin-top: 5px;
+        margin-right: 10px;
+        margin-left: 40px;
+        width:230px;
+        height: 40px;
+        border: 2px solid black;
+    }
+    
+    #check-out{
+        margin-top: 5px;
+        margin-right: 10px;
+        margin-left: 40px;
+        width:230px;
+        height: 40px;
+        border: 2px solid black;
+    }
+    
+    #submit-button{
+        margin-top: 10px;
+        margin-right:0px;
+        margin-left: 40px;
+        width: 200px;
+        height: 40px;
+        padding:0;
+        border: 2px solid black;
+        border-radius: 0%;
+    }
+    
+    .room-essentials-container{
+        background-color: rgb(216, 199, 184);
+        height:1200px;
+        width:auto;
+    
+    }
+    
+    .room-essentials-container h2{
+        margin-left: 10px;
+    }
+    
+    
+    #first-half-icons{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #second-half-icons{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #icon-content-box{
+        text-align: center;
+    }
+    
+    #icon-content-box .fa{
+        text-align:center;
+        padding: 20px;
+    }
+    
+    #icon-content-box p{
+        font-size: 20px;
+        font-weight:600;
+    }
+    
+    #monastry-rooms-area{
+        padding-top: 70px;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: auto;
+        height:6250px;
+        background-color: rgb(216, 199, 184);
+    }
+    
+    .monastry-rooms-navbar{
+        height:450px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .monastry-rooms-text{
+        text-align: center;
+    }
+    
+    .monastry-rooms-buttons{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    
+    #monastry-rooms-display{
+        margin-top: 30px;
+    }
+    
+    #suite-container h2,
+    #twin-container h2,
+    #double-container h2,
+    #maisonette-container h2
+    {
+        text-align: center;
+    }
+    
+    .card-text .fa{
+        margin-right: 15px;
+    }
+    
+    #twin-container,
+    #double-container,
+    #maisonette-container{
+        margin-top: 20px;
+    }
+    
+    
+    #double-card-1,
+    #double-card-2{
+        height:510px;
+        width: 380px;
+        padding:0;
+    }
+    
+    #double-card-container-1{
+        display:flex;
+        justify-content: flex-end;
+    }
+    
+    #double-card-2 img{
+        height:245px;
+    }
+    
+    .card{
+        padding:0;
+    }
+    
+    
+    .footer-container{
+        width:auto;
+        height:150px;
+        padding-top: 20px;
+    }
+    
+    .top-footer-container{
+        display: flex;
+        flex-direction: row;
+        padding-left: 20px;
+    }
+    
+    .top-footer-container small{
+        margin-top:10px;
+    }
+    
+    .email-container{
+        display:flex;
+        flex-direction: row;
+        margin-left: 35px;
+    }
+    
+    .email-container input{
+        width: 120px;
+    }
+
+    .email-box::-webkit-input-placeholder{
+        font-size: 12px;
+        padding-left: 25px;
+    }
+    
+    .bottom-footer-container{
+        display: flex;
+        flex-direction: row;
+        padding-left: 20px;
+    }
+    
+    .social-media-icons{
+        margin-left: 20px;
+    
+    }
+    
+    .social-media-icons .fa{
+            font-size: 30px;
+            width: 40px;
+            text-align: center;
+            text-decoration: none;
+            margin: 2px 5px;
+            
+    }
+    
+    .social-media-icons .fa:hover{
+        opacity: 0.7;
+    }
+    
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+        border-radius: 20%;
+      }
+      
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+        border-radius: 20%;
+      }
+    
+      .fa-youtube {
+        background: #bb0000;
+        color: white;
+        border-radius: 20%;
+      }
+      
+      .fa-instagram {
+        background: #125688;
+        color: white;
+        border-radius: 20%;
+      }
+  }
+
+  /* Media Query for Medium Phones */
+  @media only screen and (min-width:375px) and (max-width:767px){
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    #navbar-container{
+        height:150px;
+        
+    }
+    
+    nav{
+        height: 200px;
+    }
+    
+    .navbar{
+        padding-bottom: 90px;
+        padding-top:0px;
+    }
+    
+    .navbar-brand{
+        padding:0 !important;
+        margin-right:0px !important;
+        margin-left: 0px !important;
+        margin-top: 90px !important;
+    }
+    
+    .navbar-toggler{
+        background-color:white !important;
+        margin-top:60px !important;
+        font-size: 2rem !important;
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+        color: white;
+        font-family: Roberto,sans-serif;
+        font-size: 1.2rem;
+        font-weight: 600;
+        font-style: normal;
+        text-shadow: white;
+        text-transform: uppercase;
+    }
+    
+    
+    
+    .room-page-cover{
+        background-image: url(/images/rooms/splash-background2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center;
+        height:900px;
+    }
+    
+    
+    .jumbotron{
+        margin-top:120px;
+        height:700px;
+        background-color:transparent;
+    }
+    
+    .room-splash-container{
+        text-align: center;
+        padding-top:30px;
+    }
+    
+    
+    .title-header-1{
+        color: white;
+        font-weight: 500;
+        font-family: Roboto;
+        font-size: 80px;
+        font-style: normal;
+        text-shadow: 4px 2px 6px rgba(0,0,0,0.2);
+        margin-bottom: 0;
+    }
+    
+    
+    
+    
+    .reservation-container{
+        width:auto;
+        height:280px;
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #CCA283;
+    }
+    
+    .reservation-container p{
+        margin-left:40px;
+        margin-right: 10px;
+        margin-top: 15px;
+        font-size:35px;
+        font-weight: 500;
+        font-style: normal;
+        z-index:2;
+    }
+    
+    #check-in{
+        margin-top: 5px;
+        margin-right: 10px;
+        margin-left: 40px;
+        width:260px;
+        height: 40px;
+        border: 2px solid black;
+    }
+    
+    #check-out{
+        margin-top: 5px;
+        margin-right: 10px;
+        margin-left: 40px;
+        width:260px;
+        height: 40px;
+        border: 2px solid black;
+    }
+    
+    #submit-button{
+        margin-top: 10px;
+        margin-right:0px;
+        margin-left: 40px;
+        width: 200px;
+        height: 40px;
+        padding:0;
+        border: 2px solid black;
+        border-radius: 0%;
+    }
+    
+    .room-essentials-container{
+        background-color: rgb(216, 199, 184);
+        height:1200px;
+        width:auto;
+    
+    }
+    
+    .room-essentials-container h2{
+        margin-left: 10px;
+    }
+    
+    
+    #first-half-icons{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #second-half-icons{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #icon-content-box{
+        text-align: center;
+    }
+    
+    #icon-content-box .fa{
+        text-align:center;
+        padding: 20px;
+    }
+    
+    #icon-content-box p{
+        font-size: 20px;
+        font-weight:600;
+    }
+    
+    #monastry-rooms-area{
+        padding-top: 70px;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: auto;
+        height:6500px;
+        background-color: rgb(216, 199, 184);
+    }
+    
+    .monastry-rooms-navbar{
+        height:450px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .monastry-rooms-text{
+        text-align: center;
+    }
+    
+    .monastry-rooms-buttons{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    
+    #monastry-rooms-display{
+        margin-top: 30px;
+    }
+    
+    #suite-container h2,
+    #twin-container h2,
+    #double-container h2,
+    #maisonette-container h2
+    {
+        text-align: center;
+    }
+    
+    .card-text .fa{
+        margin-right: 15px;
+    }
+    
+    #twin-container,
+    #double-container,
+    #maisonette-container{
+        margin-top: 20px;
+    }
+    
+    
+    #double-card-1,
+    #double-card-2{
+        height:510px;
+        width: 380px;
+        padding:0;
+    }
+    
+    #double-card-container-1{
+        display:flex;
+        justify-content: flex-end;
+    }
+    
+    #double-card-2 img{
+        height:245px;
+    }
+    
+    .card{
+        padding:0;
+    }
+    
+    
+    .footer-container{
+        width:auto;
+        height:150px;
+        padding-top: 20px;
+    }
+    
+    .top-footer-container{
+        display: flex;
+        flex-direction: row;
+        padding-left: 10px;
+    }
+    
+    .top-footer-container small{
+        margin-top:10px;
+    }
+    
+    .email-container{
+        display:flex;
+        flex-direction: row;
+        margin-left: 20px;
+    }
+    
+    .email-container input{
+        width: 180px;
+    }
+
+    .email-box::-webkit-input-placeholder{
+        font-size: 12px;
+        padding-left: 8px;
+    }
+    
+    .bottom-footer-container{
+        display: flex;
+        flex-direction: row;
+        padding-left: 10px;
+    }
+    
+    .social-media-icons{
+        margin-left: 20px;
+    
+    }
+    
+    .social-media-icons .fa{
+            font-size: 30px;
+            width: 40px;
+            text-align: center;
+            text-decoration: none;
+            margin: 2px 5px;
+            
+    }
+    
+    .social-media-icons .fa:hover{
+        opacity: 0.7;
+    }
+    
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+        border-radius: 20%;
+      }
+      
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+        border-radius: 20%;
+      }
+    
+      .fa-youtube {
+        background: #bb0000;
+        color: white;
+        border-radius: 20%;
+      }
+      
+      .fa-instagram {
+        background: #125688;
+        color: white;
+        border-radius: 20%;
+      }
+  }
+
+/* Media Query for Tablet */
+@media only screen and (min-width:768px) and (max-width:1439px){
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    #navbar-container{
+        height:150px;
+        
+    }
+    
+    nav{
+        height: 200px;
+    }
+    
+    .navbar{
+        padding-bottom: 90px;
+        padding-top:0px;
+    }
+    
+    .navbar-brand{
+        padding:0 !important;
+        margin-right:0px !important;
+        margin-left: 0px !important;
+        margin-top: 90px !important;
+    }
+    
+    .navbar-toggler{
+        background-color:white !important;
+        margin-top:60px !important;
+        font-size: 2rem !important;
+        margin-right: 30px;
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+        color: white;
+        font-family: Roberto,sans-serif;
+        font-size: 1.2rem;
+        font-weight: 600;
+        font-style: normal;
+        text-shadow: white;
+        text-transform: uppercase;
+    }
+    
+    
+    
+    .room-page-cover{
+        background-image: url(/images/rooms/splash-background2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center;
+        height:900px;
+    }
+    
+    
+    .jumbotron{
+        margin-top:50px;
+        height:700px;
+        background-color:transparent;
+    }
+    
+    .room-splash-container{
+        text-align: center;
+        padding-top:30px;
+    }
+    
+    
+    .title-header-1{
+        color: white;
+        font-weight: 500;
+        font-family: Roboto;
+        font-size: 80px;
+        font-style: normal;
+        text-shadow: 4px 2px 6px rgba(0,0,0,0.2);
+        margin-bottom: 0;
+    }
+    
+    
+    
+    
+    .reservation-container{
+        width:auto;
+        height:100px;
+        display:flex;
+        justify-content: center;
+        flex-direction: row;
+        background-color: #CCA283;
+    }
+    
+    .reservation-container p{
+        margin-left: 0px;
+        margin-right: 10px;
+        margin-top: 15px;
+        font-size:20px;
+        font-weight: 500;
+        font-style: normal;
+        z-index:2;
+        text-align:center;
+    }
+    
+    #check-in{
+        margin-top: 20px;
+        margin-right: 10px;
+        margin-left: 20px;
+        width:260px;
+        height: 40px;
+        border: 2px solid black;
+    }
+    
+    #check-out{
+        margin-top: 20px;
+        margin-right: 10px;
+        margin-left: 20px;
+        width:260px;
+        height: 40px;
+        border: 2px solid black;
+    }
+    
+    #submit-button{
+        margin-top: 20px;
+        margin-right:20px;
+        margin-left: 20px;
+        width: 200px;
+        height: 40px;
+        padding:0;
+        border: 2px solid black;
+        border-radius: 0%;
+    }
+    
+    .room-essentials-container{
+        background-color: rgb(216, 199, 184);
+        height:500px;
+        width:auto;
+    
+    }
+    
+    .room-essentials-container h2{
+        margin-left: 10px;
+    }
+    
+    
+    #first-half-icons{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #second-half-icons{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #icon-content-box{
+        text-align: center;
+    }
+    
+    #icon-content-box .fa{
+        text-align:center;
+        padding: 20px;
+    }
+    
+    #icon-content-box p{
+        font-size: 20px;
+        font-weight:600;
+    }
+    
+    #monastry-rooms-area{
+        padding-top: 70px;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: auto;
+        height:9500px;
+        background-color: rgb(216, 199, 184);
+    }
+    
+    .monastry-rooms-navbar{
+        height:450px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .monastry-rooms-text{
+        text-align: center;
+    }
+    .monastry-rooms-text p{
+        font-size: 1.5rem !important;
+    }
+    
+    .monastry-rooms-buttons{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    
+    #monastry-rooms-display{
+        margin-top: 30px;
+    }
+    
+    #suite-container h2,
+    #twin-container h2,
+    #double-container h2,
+    #maisonette-container h2
+    {
+        text-align: center;
+    }
+    
+    .card-text .fa{
+        margin-right: 15px;
+    }
+    
+    #twin-container,
+    #double-container
+    #maisonette-container{
+        margin-top: 20px;
+    }
 
 
+    
+    #double-card-1,
+    #double-card-2{
+        height:auto;
+        width: 100%;
+        padding:0;
+    }
+    
+    #double-card-container-1{
+        display:flex;
+        justify-content: center;
+    }
+    
+    #double-card-2 img{
+        height:450px;
+    }
+    
+    .card{
+        padding:0;
+    }
+    
+    
+    .footer-container{
+        width:auto;
+        height:150px;
+        padding-top: 20px;
+    }
+    
+    .top-footer-container{
+        display: flex;
+        flex-direction: row;
+        padding-left: 10px;
+    }
+    
+    .top-footer-container small{
+        margin-top:10px;
+    }
+    
+    .email-container{
+        display:flex;
+        flex-direction: row;
+        margin-left: 300px;
+    }
+    
+    .email-container input{
+        width: 300px;
+    }
+
+    .email-box::-webkit-input-placeholder{
+        font-size: 12px;
+        padding-left: 8px;
+    }
+    
+    .bottom-footer-container{
+        display: flex;
+        flex-direction: row;
+        padding-left: 10px;
+    }
+    
+    .social-media-icons{
+        margin-left: 180px;
+    
+    }
+    
+    .social-media-icons .fa{
+            font-size: 30px;
+            width: 40px;
+            text-align: center;
+            text-decoration: none;
+            margin: 2px 5px;
+            
+    }
+    
+    .social-media-icons .fa:hover{
+        opacity: 0.7;
+    }
+    
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+        border-radius: 20%;
+      }
+      
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+        border-radius: 20%;
+      }
+    
+      .fa-youtube {
+        background: #bb0000;
+        color: white;
+        border-radius: 20%;
+      }
+      
+      .fa-instagram {
+        background: #125688;
+        color: white;
+        border-radius: 20%;
+      }
+}
