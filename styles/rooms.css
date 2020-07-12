@@ -39,7 +39,7 @@ nav{
 
 
 .room-page-cover{
-    background-image: url(/images/rooms/splash-background2.jpg);
+    background-image: url(../images/rooms/splash-background2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
