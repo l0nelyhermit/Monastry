@@ -40,7 +40,7 @@ nav{
 }
 
 .main-page-cover{
-    background-image: url(images/homepage/homepage-splash.jpg);
+    background-image: url(/images/homepage/homepage-splash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
@@ -549,7 +549,7 @@ nav{
     }
 
     .main-page-cover{
-        background-image: url(images/homepage/homepage-splash.jpg);
+        background-image: url(/images/homepage/homepage-splash.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position:left;
@@ -1091,7 +1091,7 @@ nav{
     }
 
     .main-page-cover{
-        background-image: url(images/homepage/homepage-splash.jpg);
+        background-image: url(/images/homepage/homepage-splash.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position:left;
@@ -1633,7 +1633,7 @@ nav{
     }
 
     .main-page-cover{
-        background-image: url(images/homepage/homepage-splash.jpg);
+        background-image: url(/images/homepage/homepage-splash.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position:left;
