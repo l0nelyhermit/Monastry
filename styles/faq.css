@@ -3,7 +3,7 @@ body {
     padding: 0;
 }
 
-
+/* Navigation Bar Segment */
 #navbar-container{
     height:120px;
     
@@ -48,7 +48,7 @@ nav{
     height:100vh;
 }
 
-
+/* Jumbotron Segment for Splash Screen */
 .jumbotron{
     margin:0;
     height:700px;
@@ -70,7 +70,7 @@ nav{
     margin-bottom: 0;
 }
 
-
+/* Searchbar Segment */
 
 .searchbar-container{
     display:flex;
@@ -86,6 +86,8 @@ nav{
     background-color: rgb(216, 199, 184);
     height:1000px;
 }
+
+/* Accordion Segment */
 
 .accordion-container{
     display:flex;
@@ -111,6 +113,7 @@ nav{
     width: 600px;
     height:50px;
 }
+/* Footer Segment */
 
 .footer-container{
     width:auto;

@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
 }
-
+/* Navigation Bar Segment */
 #navbar-container{
     height:120px;
     
@@ -47,7 +47,7 @@ nav{
     height:100vh;
     width:auto;
 }
-
+/* Jumbotron Segment for Splash Screen */
 .jumbotron{
     background-color: transparent;
     display:flex;
@@ -86,9 +86,8 @@ nav{
     font-size:1.6rem !important;
 
 }
-
+/* Reservation Form Segment */
 .form-container{
-    /* background-color:rgba(239,181,179,0.2); */
     background-color: #CCA283;
     width:100%;
     height:250px;
@@ -168,13 +167,12 @@ nav{
 .contact-reservations:hover{
     color:black;
 }
+/* Customised Navigation Segment */
 
 #navigation-container{
     width: auto;
     height: 400px;
-    /* background-color: #1C2923; */
     background-color: rgb(216, 199, 184);
-    /* background-color:rgba(239,181,179,0.6); */
     display:flex;
     justify-content: space-between;
     padding-top: 50px;
@@ -343,13 +341,12 @@ nav{
     opacity:1;
     visibility: visible;
 }
+/* Neighborhood Segment */
 
 #neighborhood-container{
     width: 100%;
     height: 500px;
-    /* background-color:rgba(117,60,45,0.7); */
     background-color: rgb(216, 199, 184);
-    /* background-color:rgba(239,181,179,0.6); */
 }
 
 .google-map-image{
@@ -372,13 +369,11 @@ nav{
     font-family: Arial;
     width:80%;
 }
-
+/* Reviews Segment */
 #reviews-container{
     width:auto;
     height: 300px;
-    /* background-color:rgb(192, 210, 210); */
     background-color: rgb(216, 199, 184);
-    /* background-color:rgba(239,181,179,0.6); */
     padding:80px;
 }
 
@@ -419,7 +414,7 @@ nav{
     color:black;
     font-weight:bold;
 }
-
+/* Footer Segment */
 .footer-container{
     width:auto;
     height:150px;
@@ -602,7 +597,6 @@ nav{
     }
 
     .form-container{
-        /* background-color:rgba(239,181,179,0.2); */
         background-color: #CCA283;
         width:100%;
         height:700px;
@@ -699,9 +693,7 @@ nav{
     #navigation-container{
         width: auto;
         height: 1100px;
-        /* background-color: #1C2923; */
         background-color: rgb(216, 199, 184);
-        /* background-color:rgba(239,181,179,0.6); */
         display:flex;
         justify-content: space-between;
         padding-top: 50px;
@@ -874,9 +866,7 @@ nav{
     #neighborhood-container{
         width: 100%;
         height: 900px;
-        /* background-color:rgba(117,60,45,0.7); */
         background-color: rgb(216, 199, 184);
-        /* background-color:rgba(239,181,179,0.6); */
     }
     
     .google-map-image{
@@ -911,9 +901,7 @@ nav{
     #reviews-container{
         width:auto;
         height: 300px;
-        /* background-color:rgb(192, 210, 210); */
         background-color: rgb(216, 199, 184);
-        /* background-color:rgba(239,181,179,0.6); */
         padding-top:10px;
         padding-bottom: 0px;
         padding-right: 0px;
@@ -1144,7 +1132,6 @@ nav{
     }
 
     .form-container{
-        /* background-color:rgba(239,181,179,0.2); */
         background-color: #CCA283;
         width:100%;
         height:500px;
@@ -1240,9 +1227,7 @@ nav{
     #navigation-container{
         width: auto;
         height: 1100px;
-        /* background-color: #1C2923; */
         background-color: rgb(216, 199, 184);
-        /* background-color:rgba(239,181,179,0.6); */
         display:flex;
         justify-content: space-between;
         padding-top: 50px;
@@ -1417,9 +1402,7 @@ nav{
     #neighborhood-container{
         width: 100%;
         height: 900px;
-        /* background-color:rgba(117,60,45,0.7); */
         background-color: rgb(216, 199, 184);
-        /* background-color:rgba(239,181,179,0.6); */
     }
     
     .google-map-image{
@@ -1454,9 +1437,7 @@ nav{
     #reviews-container{
         width:auto;
         height: 300px;
-        /* background-color:rgb(192, 210, 210); */
         background-color: rgb(216, 199, 184);
-        /* background-color:rgba(239,181,179,0.6); */
         padding-top:10px;
         padding-bottom: 0px;
         padding-right: 0px;
@@ -1684,7 +1665,6 @@ nav{
 
 
     .form-container{
-        /* background-color:rgba(239,181,179,0.2); */
         background-color: #CCA283;
         width:100%;
         height:600px;
@@ -1793,9 +1773,7 @@ nav{
     #navigation-container{
         width: auto;
         height: 1300px;
-        /* background-color: #1C2923; */
         background-color: rgb(216, 199, 184);
-        /* background-color:rgba(239,181,179,0.6); */
         display:flex;
         justify-content: space-between;
         padding-top: 50px;
@@ -1974,9 +1952,7 @@ nav{
     #neighborhood-container{
         width: 100%;
         height: 400px;
-        /* background-color:rgba(117,60,45,0.7); */
         background-color: rgb(216, 199, 184);
-        /* background-color:rgba(239,181,179,0.6); */
     }
     
     .google-map-image{
@@ -2012,9 +1988,7 @@ nav{
     #reviews-container{
         width:auto;
         height: 300px;
-        /* background-color:rgb(192, 210, 210); */
         background-color: rgb(216, 199, 184);
-        /* background-color:rgba(239,181,179,0.6); */
         padding-top:10px;
         padding-bottom: 0px;
         padding-right: 0px;

@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
 }
-
+/* Navigation Bar Segment */
 
 #navbar-container{
     height:120px;
@@ -46,6 +46,7 @@ nav{
     height:100vh;
 }
 
+/* Jumbotron Segment for Splash Screen */
 
 .jumbotron{
     margin:0;
@@ -69,9 +70,7 @@ nav{
     margin-bottom: 0;
 }
 
-
-
-
+/* Reservation Form Segment */
 .reservation-container{
     width:auto;
     height:60px;
@@ -117,6 +116,7 @@ nav{
     border-radius: 0%;
 }
 
+/* Rooms Essentials Segment */
 .room-essentials-container{
     background-color: rgb(216, 199, 184);
     height:300px;
@@ -154,7 +154,7 @@ nav{
     font-size: 20px;
     font-weight:600;
 }
-
+/* Monastry Rooms Segment */
 #monastry-rooms-area{
     padding-left: 250px;
     padding-right: 250px;
@@ -170,7 +170,7 @@ nav{
 .monastry-rooms-text{
     text-align: center;
 }
-
+/* Monastry Buttons Segment */
 .monastry-rooms-buttons{
     display: flex;
     justify-content: space-evenly;
@@ -180,7 +180,7 @@ nav{
 #monastry-rooms-display{
     margin-top: 30px;
 }
-
+/* Suite/Twin/Double/Maisonette Rooms Segment */
 #suite-container h2,
 #twin-container h2,
 #double-container h2,
@@ -220,7 +220,7 @@ nav{
     padding:0;
 }
 
-
+/* Footer Segment */
 .footer-container{
     width:auto;
     height:150px;
@@ -296,6 +296,7 @@ nav{
   }
 
   /* Media Queries for Various Sizes for Rooms Page */
+  /* Media Query for Small Phones */
   @media only screen and (max-width:374px){
     body {
         margin: 0;

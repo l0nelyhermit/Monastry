@@ -3,7 +3,7 @@ body {
     padding: 0;
 }
 
-
+/* Navigation Bar Segment */
 #navbar-container{
     height:120px;
     
@@ -47,8 +47,7 @@ nav{
     background-position:center;
     height:1000px;
 }
-
-
+/* Jumbotron Segment for Splash Screen */
 .jumbotron{
     margin:0;
     height:700px;
@@ -75,6 +74,7 @@ main{
     background-color: rgb(216, 199, 184);
     height:2250px;
 }
+/* Segment for content for About Page */
 
 .the-beginning{
     height:1400px;
@@ -112,7 +112,7 @@ main{
     height:70vh;
     width:100vh;
 }
-
+/* Award Segment and Content */
 .image-landscape{
     background-image:url(/images/about/landscape.jpg);
     background-repeat: no-repeat;
@@ -147,6 +147,7 @@ main{
     align-items: center;
     margin-left: 150px;
 }
+/* Footer Segment */
 
 .footer-container{
     width:auto;
