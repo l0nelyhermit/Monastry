@@ -40,8 +40,8 @@ nav{
     color:black;
 }
 
-.faq-page-cover{
-    background-image: url(/images/contact/splash-background5.jpg);
+.contact-page-cover{
+    background-image: url(../images/contact/splash-background5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
@@ -321,8 +321,8 @@ textarea{
         color:black;
     }
     
-    .faq-page-cover{
-        background-image: url(/images/contact/splash-background5.jpg);
+    .contact-page-cover{
+        background-image: url(../images/contact/splash-background5.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position:center;
@@ -604,8 +604,8 @@ textarea{
         color:black;
     }
     
-    .faq-page-cover{
-        background-image: url(/images/contact/splash-background5.jpg);
+    .contact-page-cover{
+        background-image: url(../images/contact/splash-background5.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position:center;
@@ -888,8 +888,8 @@ textarea{
         color:black;
     }
     
-    .faq-page-cover{
-        background-image: url(/images/contact/splash-background5.jpg);
+    .contact-page-cover{
+        background-image: url(../images/contact/splash-background5.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position:center;

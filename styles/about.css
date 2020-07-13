@@ -40,8 +40,8 @@ nav{
     color:black;
 }
 
-.faq-page-cover{
-    background-image: url(/images/about/splash-background6.jpg);
+.about-page-cover{
+    background-image: url(../images/about/splash-background6.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
@@ -277,8 +277,8 @@ main{
         color:black;
     }
     
-    .faq-page-cover{
-        background-image: url(/images/about/splash-background6.jpg);
+    .about-page-cover{
+        background-image: url(../images/about/splash-background6.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position:center;
@@ -524,8 +524,8 @@ main{
         color:black;
     }
     
-    .faq-page-cover{
-        background-image: url(/images/about/splash-background6.jpg);
+    .about-page-cover{
+        background-image: url(../images/about/splash-background6.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position:center;
@@ -778,8 +778,8 @@ main{
         color:black;
     }
     
-    .faq-page-cover{
-        background-image: url(/images/about/splash-background6.jpg);
+    .about-page-cover{
+        background-image: url(../images/about/splash-background6.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position:center;

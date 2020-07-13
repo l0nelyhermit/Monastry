@@ -41,7 +41,7 @@ nav{
 }
 
 .dine-page-cover{
-    background-image: url(/images/dine/splash-background3.jpg);
+    background-image: url(../images/dine/splash-background3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
@@ -305,7 +305,7 @@ nav{
     }
     
     .dine-page-cover{
-        background-image: url(/images/dine/splash-background3.jpg);
+        background-image: url(../images/dine/splash-background3.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position:center;
@@ -578,7 +578,7 @@ nav{
     }
     
     .dine-page-cover{
-        background-image: url(/images/dine/splash-background3.jpg);
+        background-image: url(../images/dine/splash-background3.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position:center;
@@ -851,7 +851,7 @@ nav{
     }
     
     .dine-page-cover{
-        background-image: url(/images/dine/splash-background3.jpg);
+        background-image: url(../images/dine/splash-background3.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position:center;
