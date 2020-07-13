@@ -85,7 +85,7 @@ There was no automated testing used for this project, all testing was done manua
 * When using the inspector to check for mobile responsivness, there are times upon shrinking the mobile size whereby there would be a visible white space beside the webpage or the page would not load properly.One quick fix that was used is to navigate to other webpages first and try to navigate back to the page that you wish to be on.
 
 ## Deployment
-This site can be viewed [here](https://l0nelyhermit.github.io/Monastry/). This site is hosted using GitHub pages and is deployed using the master branch.
+This site can be viewed [here](https://l0nelyhermit.github.io/Monastry/index.html). This site is hosted using GitHub pages and is deployed using the master branch.
 
 To run the site  locally on your own machine, you may choose to view to source code for this project [here](https://github.com/l0nelyhermit/Monastry) and clone the repository.
 
