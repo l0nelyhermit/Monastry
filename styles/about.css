@@ -114,7 +114,7 @@ main{
 }
 /* Award Segment and Content */
 .image-landscape{
-    background-image:url(/images/about/landscape.jpg);
+    background-image:url(../images/about/landscape.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -351,7 +351,7 @@ main{
     }
     
     .image-landscape{
-        background-image:url(/images/about/landscape.jpg);
+        background-image:url(../images/about/landscape.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -602,7 +602,7 @@ main{
     }
     
     .image-landscape{
-        background-image:url(/images/about/landscape.jpg);
+        background-image:url(../images/about/landscape.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -856,7 +856,7 @@ main{
     }
     
     .image-landscape{
-        background-image:url(/images/about/landscape.jpg);
+        background-image:url(../images/about/landscape.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
